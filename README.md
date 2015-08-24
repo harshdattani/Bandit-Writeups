@@ -79,3 +79,6 @@ The password for the next level is stored in a file somewhere under the inhere d
  2. Use **find** command to find Human Readable file with 1033 bytes size.
 
  `find ./* -size 1033c`
+
+Level 6
+-------------
