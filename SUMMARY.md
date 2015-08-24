@@ -1,4 +1,3 @@
 # Summary
 
-* Level 0
 
