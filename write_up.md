@@ -116,7 +116,7 @@ The password for the next level is stored in the file data.txt next to the word 
 
 Question clearly indicates we need to find the word millionth from the data.txt file. Try opening file directly and search the word manually or lets use search method. 
 
- 1. Log in to **bandit7** via ssh and password.
+ 1. Log in to **bandit8** via ssh and password.
  2. Remember **grep** is our best friend. Use grep to find millionth word from data.txt file.
 
  `cat data.txt | grep millionth`
