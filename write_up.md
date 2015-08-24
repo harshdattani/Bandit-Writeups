@@ -107,3 +107,16 @@ Question clearly indicates we need to find the word millionth from the data.txt 
  2. Remember **grep** is our best friend. Use grep to find millionth word from data.txt file.
 
  `cat data.txt | grep millionth`
+ 
+## Level 8
+-------------
+
+ > **Level Goal:** 
+The password for the next level is stored in the file data.txt next to the word millionth
+
+Question clearly indicates we need to find the word millionth from the data.txt file. Try opening file directly and search the word manually or lets use search method. 
+
+ 1. Log in to **bandit7** via ssh and password.
+ 2. Remember **grep** is our best friend. Use grep to find millionth word from data.txt file.
+
+ `cat data.txt | grep millionth`
