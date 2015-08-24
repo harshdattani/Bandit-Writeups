@@ -2,7 +2,7 @@ Bandit Write ups
 ===================
 
 Write ups of how I solved **[Bandit](http://overthewire.org/wargames/bandit/)** wargame levels, might be useful to those who are got stuck in any level.There are total 26 levels.Will add solutions from time to time.
-I have not posted **Keys** to next level. Just steps to complete the level! :P 
+I have not posted **Keys** to next level. Just steps to complete the level! :P.
 
 If you have any trouble solving the levels, create an issue in my [Repo](https://github.com/harshdattani/Bandit-Writeups), will try to resolve it :)
 
