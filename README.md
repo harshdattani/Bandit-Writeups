@@ -66,3 +66,15 @@ The password for the next level is stored in the only human-readable file in the
  2. Use **file ./*** command to find Human Readable i.e. an Ascii Text File and open that file using **cat**.
 
  `file ./*`
+
+Level 5
+-------------
+
+ > **Level Goal:** 
+The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties: - human-readable - 1033 bytes in size - not executable.
+
+ 1. Login to **bandit5** via ssh and password.
+ 2. Navigate to **inhere** directory.
+ 2. Use **find** command to find Human Readable file with 1033 bytes size.
+
+ `find ./* -size 1033c`
