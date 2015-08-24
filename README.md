@@ -15,6 +15,7 @@ The password for the next level is stored in a file called readme located in the
 
  1. An easy level, just login using ssh in **bandit.labs.overthewire.org** using username: **bandit0** and the password **bandit0**.
  2. Use our favourite **ls** to view files/folders and **cat** to read contents of **readme**.
+ 
     `cat readme`
  3. This file contains the password to next Bandit01 level.
 
@@ -63,7 +64,7 @@ The password for the next level is stored in the only human-readable file in the
 
  1. Login to **bandit4** via ssh and password.
  2. Navigate to **inhere** directory.
- 2. Use **file ./*** command to find Human Readable i.e. an Ascii Text File and open that file using **cat**.
+ 2. Use **file ./*** command to find Human Readable i.e. an ASCII Text File and open that file using **cat**.
 
  `file ./*`
 
