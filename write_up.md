@@ -1,7 +1,7 @@
 Bandit Write ups
 ===================
 
-Write ups of how I solved **[Bandit](http://overthewire.org/wargames/bandit/)** wargame levels, might be useful to those who are got stuck in any level.There are total 26 levels.Will add solutions from time to time.
+Write ups of how I solved **[Bandit](http://overthewire.org/wargames/bandit/)** War Game levels, might be useful to those who are got stuck in any level.There are total 26 levels. Will add solutions from time to time.
 I have not posted **Keys** to next level. Just steps to complete the level! :P.
 
 If you have any trouble solving the levels, create an issue in my [Repo](https://github.com/harshdattani/Bandit-Writeups), will try to resolve it :)
@@ -114,9 +114,24 @@ Question clearly indicates we need to find the word millionth from the data.txt 
  > **Level Goal:** 
 The password for the next level is stored in the file data.txt next to the word millionth
 
-Question clearly indicates we need to find the word millionth from the data.txt file. Try opening file directly and search the word manually or lets use search method. 
+Question clearly indicates we need to find the unique line from the data.txt file.
 
  1. Log in to **bandit8** via ssh and password.
- 2. Remember **grep** is our best friend. Use grep to find millionth word from data.txt file.
+ 2. If we check commands given in the bandit page for this challenge included **sort, uniq, base64, etc**. First thing which comes in mind was
+sort and uniq seems appropriate for this challenge. 
+3. With help of **Man Sort** and **Man Uniq**, we can check that **Sort** is used for sorting text files and **uniq** with **u** as argument helps us **sorting** only unique lines from a file.
 
- `cat data.txt | grep millionth`
+ `sort data.txt | uniq -u`
+ 
+ ## Level 9
+-------------
+
+ > **Level Goal:** 
+The password for the next level is stored in the file data.txt in one of the few human-readable strings, beginning with several ‘=’ characters.
+
+
+ 1. Log in to **bandit9** via ssh and password.
+ 2. Upon running **cat data.txt** we got prompt of **Binary File**.
+ 3. Here **Strings** command will rescue us. You will find a list of strings in file and also a string starting with = and ending with password.
+
+ `strings data.txt`
