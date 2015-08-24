@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Write Up
+* [Write Up](write_up.md)
 
